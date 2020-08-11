@@ -1,0 +1,143 @@
+@media(max-width: 1220px) {
+    .top__bottom {
+        padding: 0 20px;
+    }
+}
+
+@media(max-width: 1120px) {
+    .projects__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects {
+        padding: 0;
+    }
+    .projects__title {
+        top: 40px;
+        left: 20px;
+    }
+    .projects__links {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .projects-line {
+        display: none;
+    }
+}
+
+@media(max-width: 1105px) {
+    .team__item {
+        border: none !important;
+    }
+}
+
+@media(max-width: 845px) {
+    .projects__title {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 800px) {
+    .projects__slider {
+        width: 100%;
+    }
+}
+
+@media(max-width: 750px) {
+    .top__title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .services__items {
+        margin-top: 90px;
+        flex-wrap: wrap;
+    }
+    .services__item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .testimonials {
+        .section__title {
+            font-size: 30px;
+        }
+    }
+    .testimonials__items {
+        flex-wrap: wrap;
+        div+div {
+            margin: 30px 0 0 0;
+        }
+    }
+    .testimonials__item {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 670px) {
+    .contacts__line {
+        flex-wrap: wrap;
+        input+input {
+            margin-top: 50px;
+        }
+        input {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 620px) {
+    .footer {
+        flex-wrap: wrap;
+        text-align: center;
+        &>div+div {
+            margin-top: 40px;
+        }
+        .logo {
+            width: 100%;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .contacts__inner {
+        form {
+            button {
+                padding: 22px 45px 22px 15px;
+            }
+        }
+        
+    }
+}
+
+@media(max-width: 500px) {
+    .projects__title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .top__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .top__bottom {
+        margin-top: 230px;
+    }
+    .section__title {
+        font-size: 30px;
+    }
+    .testimonials {
+        .section__title {
+            font-size: 24px;
+        }
+    }
+    .testimonials__slider-text {
+        font-size: 14px;
+    }
+    .testimonials__slider-author::after, 
+    .testimonials__slider-author::before {
+        display: none;
+    }
+}
+
